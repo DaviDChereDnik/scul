@@ -1,0 +1,71 @@
+\documentclass{standalone}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% > Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Set utf-8 encoding
+\usepackage[utf8]{inputenc}
+% Adding full support of english lang
+\usepackage[english, russian]{babel}
+\usepackage[T1, T2]{fontenc}
+\usepackage{amsmath}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% > Settings 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% > Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{cases}
+\(x(t)=x_{0}+V_{0_{x}}t+\frac{a_{x}t^{2}}{2}\)
+\\
+\(y(t)=y_{0}-V_{0_{y}}t+\frac{a_{y}t^{2}}{2}\)
+\end{cases}
+\\
+\begin{cases}
+  \(V_{0_{x}}=V_{0}\)
+  \\
+  \(V_{0_{y}}=0\)
+\end{cases}
+\\
+\begin{cases}
+  \(a_{x}=0\)
+  \\
+  \(a_{y}=-g\)
+\end{cases}
+
+Время полета: \(T=\sqrt[2]{\frac{2h}{g}}\)
+\\
+Дальность полета: \(L=x(T)=V_{0}\sqrt[2]{\frac{2h}{g}}\)
+ \\
+Траектория: \(y(t)=h-\frac{g}{2}(\frac{x(t)}{V})^{2}\)
+
+\begin{cases}
+  \(x(t)=V_{0}cos(\alpha)t\)
+  \\
+  \(y(t)=V_{0}sin(\alpha)t - \frac{gt^{2}}{2}\)
+\end{cases}
+\\
+\begin{cases}
+  \(V_{0_{x}}=V_{0}cos(\alpha)\)
+  \\
+  \(V_{0_{y}}=V_{0}sin(\alpha)\)
+\end{cases}
+\\
+\begin{cases}
+  \(a_{x}=0\)
+  \\
+  \(a_{y}=-g\)
+\end{cases}
+
+Время полета: \(T=\frac{2V_{0}sin(\alpha)}{g}\)
+\\
+Дальность полета: \(L=\frac{V_{0}^{2}sin(2\alpha)}{g}\)
+\\
+Траектория: \(y=x*tg(\alpha)\frac{x^{2}g}{2V_{0}^{2}cos^{2}(\alpha)}\)
+
+\end{document}
