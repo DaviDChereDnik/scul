@@ -1,0 +1,8 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}Титульный слайд}{3}%
+\contentsline {section}{\numberline {2}Вступление}{3}%
+\contentsline {section}{\numberline {3}Не лЪпо ли ны бяшетъ, бра­тіе, начяти…}{4}%
+\contentsline {section}{\numberline {4}растЪкашется мыслію по древу}{5}%
+\contentsline {section}{\numberline {5}Троян}{6}%
+\contentsline {section}{\numberline {6}ДивЪ}{8}%
+\contentsline {section}{\numberline {7}Вывод}{10}%
